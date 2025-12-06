@@ -1,14 +1,10 @@
 [package]
-name = "gain"
+name = "delay-nih-plug"
 version = "0.1.0"
-edition = "2021"
-authors = ["Robbert van der Helm <mail@robbertvanderhelm.nl>"]
-license = "ISC"
+edition = "2024"
 
 [lib]
 crate-type = ["cdylib"]
 
 [dependencies]
-nih_plug = { git = "https://github.com/robbert-vdh/nih-plug.git", features = ["assert_process_allocs"] }
-
-parking_lot = "0.12.5"
+nih_plug = { git = "https://github.com/robbert-vdh/nih-plug.git" }
