@@ -167,6 +167,7 @@ name = "delay-nih-plug"
 version = "0.1.0"
 dependencies = [
  "nih_plug",
+ "ringbuffer",
 ]
 
 [[package]]
@@ -404,6 +405,12 @@ checksum = "ed2bf2547551a7053d6fdfafda3f938979645c44812fbfcda098faae3f1a362d"
 dependencies = [
  "bitflags 2.10.0",
 ]
+
+[[package]]
+name = "ringbuffer"
+version = "0.16.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "57b0b88a509053cbfd535726dcaaceee631313cef981266119527a1d110f6d2b"
 
 [[package]]
 name = "rustc-demangle"
