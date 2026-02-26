@@ -1,5 +1,6 @@
-# Delay nih-plug
-A very simple delay effect audio plugin built using the [nih-plug](https://github.com/robbert-vdh/nih-plug) framework.
+# Delay-NIH-plug
+A simple delay effect plugin built with [NIH-plug](https://github.com/robbert-vdh/nih-plug) plugin framework.
+
 ## Build
 ```bash
 cargo install --git https://github.com/robbert-vdh/nih-plug.git cargo-nih-plug
